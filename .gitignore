@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Poetry
+poetry.lock
+
+# Coverage
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Project specific
+src/*/migrations/*.py
+src/migrations/*.py
+!src/*/migrations/__init__.py
+
+# Data
+devops/data
+
+# Static files
+staticfiles/
+static/

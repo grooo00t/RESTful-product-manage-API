@@ -1,0 +1,22 @@
+[
+  {"model": "src.category", "pk": 1, "fields": {"name": "스마트폰"}},
+  {"model": "src.category", "pk": 2, "fields": {"name": "노트북/PC"}},
+  {"model": "src.category", "pk": 3, "fields": {"name": "태블릿"}},
+  {"model": "src.category", "pk": 4, "fields": {"name": "카메라"}},
+  {"model": "src.category", "pk": 5, "fields": {"name": "게임기"}},
+  {"model": "src.category", "pk": 6, "fields": {"name": "상의"}},
+  {"model": "src.category", "pk": 7, "fields": {"name": "하의"}},
+  {"model": "src.category", "pk": 8, "fields": {"name": "아우터"}},
+  {"model": "src.category", "pk": 9, "fields": {"name": "신발"}},
+  {"model": "src.category", "pk": 10, "fields": {"name": "가방"}},
+  {"model": "src.category", "pk": 11, "fields": {"name": "과일"}},
+  {"model": "src.category", "pk": 12, "fields": {"name": "채소"}},
+  {"model": "src.category", "pk": 13, "fields": {"name": "육류"}},
+  {"model": "src.category", "pk": 14, "fields": {"name": "해산물"}},
+  {"model": "src.category", "pk": 15, "fields": {"name": "가공식품"}},
+  {"model": "src.category", "pk": 16, "fields": {"name": "주방용품"}},
+  {"model": "src.category", "pk": 17, "fields": {"name": "가구"}},
+  {"model": "src.category", "pk": 18, "fields": {"name": "인테리어"}},
+  {"model": "src.category", "pk": 19, "fields": {"name": "도서"}},
+  {"model": "src.category", "pk": 20, "fields": {"name": "문구"}}
+] 

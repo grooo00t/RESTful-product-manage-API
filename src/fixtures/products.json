@@ -1,0 +1,2402 @@
+[
+  {
+    "model": "src.product",
+    "pk": 1,
+    "fields": {
+      "name": "브로콜리 Pro",
+      "description": "인기 상품입니다.",
+      "price": 10273,
+      "category": 12,
+      "discount_rate": 0.15,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 2,
+    "fields": {
+      "name": "청바지 Max",
+      "description": "인기 상품입니다.",
+      "price": 70092,
+      "category": 7,
+      "discount_rate": 0.12,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 3,
+    "fields": {
+      "name": "구두 Lite",
+      "description": "특별 할인 중입니다.",
+      "price": 151573,
+      "category": 9,
+      "discount_rate": 0.49,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 4,
+    "fields": {
+      "name": "화장대 Lite",
+      "description": "한정판입니다.",
+      "price": 1101918,
+      "category": 17,
+      "discount_rate": 0.32,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 5,
+    "fields": {
+      "name": "D시리즈 Max",
+      "description": "특별 할인 중입니다.",
+      "price": 1453583,
+      "category": 4,
+      "discount_rate": 0.46,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 6,
+    "fields": {
+      "name": "화장대 Plus",
+      "description": "추천 상품입니다.",
+      "price": 1727479,
+      "category": 17,
+      "discount_rate": 0.27,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 7,
+    "fields": {
+      "name": "면바지 Max",
+      "description": "베스트셀러입니다.",
+      "price": 149294,
+      "category": 7,
+      "discount_rate": 0.39,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 8,
+    "fields": {
+      "name": "운동화 Lite",
+      "description": "추천 상품입니다.",
+      "price": 50674,
+      "category": 9,
+      "discount_rate": 0.37,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 9,
+    "fields": {
+      "name": "쿠션 Lite",
+      "description": "한정판입니다.",
+      "price": 357891,
+      "category": 18,
+      "discount_rate": 0.05,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 10,
+    "fields": {
+      "name": "클러치 Pro",
+      "description": "인기 상품입니다.",
+      "price": 278994,
+      "category": 10,
+      "discount_rate": 0.5,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 11,
+    "fields": {
+      "name": "Steam Deck Lite",
+      "description": "추천 상품입니다.",
+      "price": 692132,
+      "category": 5,
+      "discount_rate": 0.49,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 12,
+    "fields": {
+      "name": "믹서기 ",
+      "description": "베스트셀러입니다.",
+      "price": 76858,
+      "category": 16,
+      "discount_rate": 0.03,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 13,
+    "fields": {
+      "name": "오이 Plus",
+      "description": "인기 상품입니다.",
+      "price": 2164,
+      "category": 12,
+      "discount_rate": 0.14,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 14,
+    "fields": {
+      "name": "즉석식품 Plus",
+      "description": "최신 모델입니다.",
+      "price": 14589,
+      "category": 15,
+      "discount_rate": 0.26,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 15,
+    "fields": {
+      "name": "집업 Max",
+      "description": "최신 모델입니다.",
+      "price": 143771,
+      "category": 8,
+      "discount_rate": 0.16,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 16,
+    "fields": {
+      "name": "즉석식품 Pro",
+      "description": "인기 상품입니다.",
+      "price": 47392,
+      "category": 15,
+      "discount_rate": 0.08,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 17,
+    "fields": {
+      "name": "구두 ",
+      "description": "특별 할인 중입니다.",
+      "price": 177106,
+      "category": 9,
+      "discount_rate": 0.06,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 18,
+    "fields": {
+      "name": "프라이팬 Lite",
+      "description": "특별 할인 중입니다.",
+      "price": 65987,
+      "category": 16,
+      "discount_rate": 0.29,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 19,
+    "fields": {
+      "name": "믹서기 Pro",
+      "description": "특별 할인 중입니다.",
+      "price": 79720,
+      "category": 16,
+      "discount_rate": 0.05,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 20,
+    "fields": {
+      "name": "Redmi Max",
+      "description": "특별 할인 중입니다.",
+      "price": 1413929,
+      "category": 1,
+      "discount_rate": 0.41,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 21,
+    "fields": {
+      "name": "돼지고기 Max",
+      "description": "인기 상품입니다.",
+      "price": 78998,
+      "category": 13,
+      "discount_rate": 0.33,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 22,
+    "fields": {
+      "name": "집업 Max",
+      "description": "추천 상품입니다.",
+      "price": 64967,
+      "category": 8,
+      "discount_rate": 0.23,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 23,
+    "fields": {
+      "name": "체리 Lite",
+      "description": "한정판입니다.",
+      "price": 29040,
+      "category": 11,
+      "discount_rate": 0.36,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 24,
+    "fields": {
+      "name": "당근 ",
+      "description": "베스트셀러입니다.",
+      "price": 5247,
+      "category": 12,
+      "discount_rate": 0.31,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 25,
+    "fields": {
+      "name": "칠면조 ",
+      "description": "베스트셀러입니다.",
+      "price": 28235,
+      "category": 13,
+      "discount_rate": 0.3,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 26,
+    "fields": {
+      "name": "숏팬츠 Lite",
+      "description": "베스트셀러입니다.",
+      "price": 116375,
+      "category": 7,
+      "discount_rate": 0.26,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 27,
+    "fields": {
+      "name": "소설 Plus",
+      "description": "추천 상품입니다.",
+      "price": 41228,
+      "category": 19,
+      "discount_rate": 0.44,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 28,
+    "fields": {
+      "name": "바람막이 Max",
+      "description": "추천 상품입니다.",
+      "price": 279121,
+      "category": 8,
+      "discount_rate": 0.31,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 29,
+    "fields": {
+      "name": "광어 Max",
+      "description": "인기 상품입니다.",
+      "price": 157462,
+      "category": 14,
+      "discount_rate": 0.13,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 30,
+    "fields": {
+      "name": "망고 Max",
+      "description": "인기 상품입니다.",
+      "price": 14538,
+      "category": 11,
+      "discount_rate": 0.29,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 31,
+    "fields": {
+      "name": "서랍장 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 1857076,
+      "category": 17,
+      "discount_rate": 0.45,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 32,
+    "fields": {
+      "name": "소파 Pro",
+      "description": "베스트셀러입니다.",
+      "price": 1650290,
+      "category": 17,
+      "discount_rate": 0.05,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 33,
+    "fields": {
+      "name": "라면 Lite",
+      "description": "한정판입니다.",
+      "price": 41778,
+      "category": 15,
+      "discount_rate": 0.39,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 34,
+    "fields": {
+      "name": "ThinkPad Max",
+      "description": "인기 상품입니다.",
+      "price": 1338085,
+      "category": 2,
+      "discount_rate": 0.48,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 35,
+    "fields": {
+      "name": "구두 Plus",
+      "description": "인기 상품입니다.",
+      "price": 66748,
+      "category": 9,
+      "discount_rate": 0.11,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 36,
+    "fields": {
+      "name": "망고 ",
+      "description": "베스트셀러입니다.",
+      "price": 17028,
+      "category": 11,
+      "discount_rate": 0.14,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 37,
+    "fields": {
+      "name": "인문 Max",
+      "description": "인기 상품입니다.",
+      "price": 38327,
+      "category": 19,
+      "discount_rate": 0.28,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 38,
+    "fields": {
+      "name": "그릇 Max",
+      "description": "특별 할인 중입니다.",
+      "price": 147793,
+      "category": 16,
+      "discount_rate": 0.27,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 39,
+    "fields": {
+      "name": "ThinkPad ",
+      "description": "추천 상품입니다.",
+      "price": 2555559,
+      "category": 2,
+      "discount_rate": 0.09,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 40,
+    "fields": {
+      "name": "딸기 Plus",
+      "description": "추천 상품입니다.",
+      "price": 26916,
+      "category": 11,
+      "discount_rate": 0.0,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 41,
+    "fields": {
+      "name": "X-Pro Plus",
+      "description": "베스트셀러입니다.",
+      "price": 1372983,
+      "category": 4,
+      "discount_rate": 0.46,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 42,
+    "fields": {
+      "name": "백팩 Max",
+      "description": "한정판입니다.",
+      "price": 171926,
+      "category": 10,
+      "discount_rate": 0.33,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 43,
+    "fields": {
+      "name": "조거팬츠 Max",
+      "description": "특별 할인 중입니다.",
+      "price": 49824,
+      "category": 7,
+      "discount_rate": 0.38,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 44,
+    "fields": {
+      "name": "닭고기 Pro",
+      "description": "베스트셀러입니다.",
+      "price": 77131,
+      "category": 13,
+      "discount_rate": 0.44,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 45,
+    "fields": {
+      "name": "Surface Laptop ",
+      "description": "베스트셀러입니다.",
+      "price": 2124554,
+      "category": 2,
+      "discount_rate": 0.41,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 46,
+    "fields": {
+      "name": "펜 Plus",
+      "description": "추천 상품입니다.",
+      "price": 22819,
+      "category": 20,
+      "discount_rate": 0.2,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 47,
+    "fields": {
+      "name": "책상 Plus",
+      "description": "최신 모델입니다.",
+      "price": 249368,
+      "category": 17,
+      "discount_rate": 0.06,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 48,
+    "fields": {
+      "name": "화장대 Plus",
+      "description": "인기 상품입니다.",
+      "price": 1723375,
+      "category": 17,
+      "discount_rate": 0.05,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 49,
+    "fields": {
+      "name": "면바지 Max",
+      "description": "추천 상품입니다.",
+      "price": 105992,
+      "category": 7,
+      "discount_rate": 0.02,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 50,
+    "fields": {
+      "name": "숏팬츠 ",
+      "description": "인기 상품입니다.",
+      "price": 109323,
+      "category": 7,
+      "discount_rate": 0.19,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 51,
+    "fields": {
+      "name": "백팩 ",
+      "description": "베스트셀러입니다.",
+      "price": 185887,
+      "category": 10,
+      "discount_rate": 0.23,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 52,
+    "fields": {
+      "name": "소스 Plus",
+      "description": "한정판입니다.",
+      "price": 4142,
+      "category": 15,
+      "discount_rate": 0.3,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 53,
+    "fields": {
+      "name": "노트 Max",
+      "description": "베스트셀러입니다.",
+      "price": 5803,
+      "category": 20,
+      "discount_rate": 0.4,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 54,
+    "fields": {
+      "name": "통조림 ",
+      "description": "최신 모델입니다.",
+      "price": 42438,
+      "category": 15,
+      "discount_rate": 0.07,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 55,
+    "fields": {
+      "name": "샌들 ",
+      "description": "최신 모델입니다.",
+      "price": 197616,
+      "category": 9,
+      "discount_rate": 0.49,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 56,
+    "fields": {
+      "name": "참치 ",
+      "description": "베스트셀러입니다.",
+      "price": 168328,
+      "category": 14,
+      "discount_rate": 0.14,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 57,
+    "fields": {
+      "name": "로퍼 Max",
+      "description": "추천 상품입니다.",
+      "price": 117773,
+      "category": 9,
+      "discount_rate": 0.19,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 58,
+    "fields": {
+      "name": "클러치 Max",
+      "description": "특별 할인 중입니다.",
+      "price": 103721,
+      "category": 10,
+      "discount_rate": 0.48,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 59,
+    "fields": {
+      "name": "집업 Max",
+      "description": "최신 모델입니다.",
+      "price": 171089,
+      "category": 8,
+      "discount_rate": 0.14,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 60,
+    "fields": {
+      "name": "음료 Plus",
+      "description": "인기 상품입니다.",
+      "price": 39338,
+      "category": 15,
+      "discount_rate": 0.11,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 61,
+    "fields": {
+      "name": "자켓 Max",
+      "description": "특별 할인 중입니다.",
+      "price": 120507,
+      "category": 8,
+      "discount_rate": 0.25,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 62,
+    "fields": {
+      "name": "가위 Lite",
+      "description": "최신 모델입니다.",
+      "price": 19705,
+      "category": 20,
+      "discount_rate": 0.11,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 63,
+    "fields": {
+      "name": "스커트 ",
+      "description": "특별 할인 중입니다.",
+      "price": 95261,
+      "category": 7,
+      "discount_rate": 0.07,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 64,
+    "fields": {
+      "name": "집업 Max",
+      "description": "추천 상품입니다.",
+      "price": 255795,
+      "category": 8,
+      "discount_rate": 0.1,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 65,
+    "fields": {
+      "name": "에세이 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 42862,
+      "category": 19,
+      "discount_rate": 0.32,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 66,
+    "fields": {
+      "name": "Switch ",
+      "description": "최신 모델입니다.",
+      "price": 663479,
+      "category": 5,
+      "discount_rate": 0.07,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 67,
+    "fields": {
+      "name": "쿠션 Pro",
+      "description": "인기 상품입니다.",
+      "price": 436990,
+      "category": 18,
+      "discount_rate": 0.26,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 68,
+    "fields": {
+      "name": "Surface Max",
+      "description": "인기 상품입니다.",
+      "price": 1126468,
+      "category": 3,
+      "discount_rate": 0.35,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 69,
+    "fields": {
+      "name": "코트 ",
+      "description": "특별 할인 중입니다.",
+      "price": 212667,
+      "category": 8,
+      "discount_rate": 0.13,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 70,
+    "fields": {
+      "name": "거울 ",
+      "description": "베스트셀러입니다.",
+      "price": 315201,
+      "category": 18,
+      "discount_rate": 0.14,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 71,
+    "fields": {
+      "name": "맨투맨 Plus",
+      "description": "인기 상품입니다.",
+      "price": 53028,
+      "category": 6,
+      "discount_rate": 0.49,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 72,
+    "fields": {
+      "name": "딸기 Plus",
+      "description": "추천 상품입니다.",
+      "price": 6792,
+      "category": 11,
+      "discount_rate": 0.3,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 73,
+    "fields": {
+      "name": "Xperia ",
+      "description": "한정판입니다.",
+      "price": 1311745,
+      "category": 1,
+      "discount_rate": 0.2,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 74,
+    "fields": {
+      "name": "딸기 Max",
+      "description": "최신 모델입니다.",
+      "price": 30746,
+      "category": 11,
+      "discount_rate": 0.04,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 75,
+    "fields": {
+      "name": "토트백 Pro",
+      "description": "최신 모델입니다.",
+      "price": 58491,
+      "category": 10,
+      "discount_rate": 0.06,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 76,
+    "fields": {
+      "name": "ROG Ally Max",
+      "description": "한정판입니다.",
+      "price": 641644,
+      "category": 5,
+      "discount_rate": 0.25,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 77,
+    "fields": {
+      "name": "Mi Pad ",
+      "description": "추천 상품입니다.",
+      "price": 1495328,
+      "category": 3,
+      "discount_rate": 0.0,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 78,
+    "fields": {
+      "name": "ZenPad Pro",
+      "description": "특별 할인 중입니다.",
+      "price": 785509,
+      "category": 3,
+      "discount_rate": 0.31,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 79,
+    "fields": {
+      "name": "Pixel Lite",
+      "description": "한정판입니다.",
+      "price": 697441,
+      "category": 1,
+      "discount_rate": 0.14,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 80,
+    "fields": {
+      "name": "Xbox Series S ",
+      "description": "추천 상품입니다.",
+      "price": 471464,
+      "category": 5,
+      "discount_rate": 0.42,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 81,
+    "fields": {
+      "name": "Xperia Max",
+      "description": "한정판입니다.",
+      "price": 1326963,
+      "category": 1,
+      "discount_rate": 0.26,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 82,
+    "fields": {
+      "name": "맨투맨 Lite",
+      "description": "한정판입니다.",
+      "price": 83222,
+      "category": 6,
+      "discount_rate": 0.39,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 83,
+    "fields": {
+      "name": "크로스백 Pro",
+      "description": "특별 할인 중입니다.",
+      "price": 266894,
+      "category": 10,
+      "discount_rate": 0.45,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 84,
+    "fields": {
+      "name": "운동화 Lite",
+      "description": "최신 모델입니다.",
+      "price": 113568,
+      "category": 9,
+      "discount_rate": 0.19,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 85,
+    "fields": {
+      "name": "Galaxy Book Plus",
+      "description": "베스트셀러입니다.",
+      "price": 2679540,
+      "category": 2,
+      "discount_rate": 0.24,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 86,
+    "fields": {
+      "name": "과학 Pro",
+      "description": "최신 모델입니다.",
+      "price": 47251,
+      "category": 19,
+      "discount_rate": 0.13,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 87,
+    "fields": {
+      "name": "블라우스 Lite",
+      "description": "베스트셀러입니다.",
+      "price": 81352,
+      "category": 6,
+      "discount_rate": 0.27,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 88,
+    "fields": {
+      "name": "블라우스 Max",
+      "description": "특별 할인 중입니다.",
+      "price": 97922,
+      "category": 6,
+      "discount_rate": 0.27,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 89,
+    "fields": {
+      "name": "커튼 Lite",
+      "description": "한정판입니다.",
+      "price": 410231,
+      "category": 18,
+      "discount_rate": 0.05,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 90,
+    "fields": {
+      "name": "Galaxy ",
+      "description": "베스트셀러입니다.",
+      "price": 642816,
+      "category": 1,
+      "discount_rate": 0.26,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 91,
+    "fields": {
+      "name": "슬리퍼 Pro",
+      "description": "최신 모델입니다.",
+      "price": 96975,
+      "category": 9,
+      "discount_rate": 0.35,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 92,
+    "fields": {
+      "name": "그릇 Max",
+      "description": "한정판입니다.",
+      "price": 107416,
+      "category": 16,
+      "discount_rate": 0.01,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 93,
+    "fields": {
+      "name": "GFX Lite",
+      "description": "추천 상품입니다.",
+      "price": 2321715,
+      "category": 4,
+      "discount_rate": 0.36,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 94,
+    "fields": {
+      "name": "에세이 Max",
+      "description": "추천 상품입니다.",
+      "price": 37908,
+      "category": 19,
+      "discount_rate": 0.42,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 95,
+    "fields": {
+      "name": "니트 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 77087,
+      "category": 6,
+      "discount_rate": 0.38,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 96,
+    "fields": {
+      "name": "냄비 Max",
+      "description": "최신 모델입니다.",
+      "price": 195091,
+      "category": 16,
+      "discount_rate": 0.3,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 97,
+    "fields": {
+      "name": "워커 Plus",
+      "description": "인기 상품입니다.",
+      "price": 110105,
+      "category": 9,
+      "discount_rate": 0.27,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 98,
+    "fields": {
+      "name": "바람막이 Max",
+      "description": "한정판입니다.",
+      "price": 142412,
+      "category": 8,
+      "discount_rate": 0.24,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 99,
+    "fields": {
+      "name": "XPS Lite",
+      "description": "한정판입니다.",
+      "price": 1738401,
+      "category": 2,
+      "discount_rate": 0.43,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 100,
+    "fields": {
+      "name": "오이 Max",
+      "description": "추천 상품입니다.",
+      "price": 6419,
+      "category": 12,
+      "discount_rate": 0.44,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 101,
+    "fields": {
+      "name": "상추 ",
+      "description": "베스트셀러입니다.",
+      "price": 15977,
+      "category": 12,
+      "discount_rate": 0.25,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 102,
+    "fields": {
+      "name": "폴로 ",
+      "description": "추천 상품입니다.",
+      "price": 39606,
+      "category": 6,
+      "discount_rate": 0.08,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 103,
+    "fields": {
+      "name": "시리얼 Pro",
+      "description": "최신 모델입니다.",
+      "price": 16102,
+      "category": 15,
+      "discount_rate": 0.1,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 104,
+    "fields": {
+      "name": "Xbox Series S Pro",
+      "description": "베스트셀러입니다.",
+      "price": 617156,
+      "category": 5,
+      "discount_rate": 0.38,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 105,
+    "fields": {
+      "name": "Pavilion Pro",
+      "description": "한정판입니다.",
+      "price": 1660156,
+      "category": 2,
+      "discount_rate": 0.43,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 106,
+    "fields": {
+      "name": "Switch ",
+      "description": "한정판입니다.",
+      "price": 695902,
+      "category": 5,
+      "discount_rate": 0.45,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 107,
+    "fields": {
+      "name": "Mi Lite",
+      "description": "특별 할인 중입니다.",
+      "price": 1765747,
+      "category": 1,
+      "discount_rate": 0.24,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 108,
+    "fields": {
+      "name": "오렌지 Pro",
+      "description": "베스트셀러입니다.",
+      "price": 26890,
+      "category": 11,
+      "discount_rate": 0.01,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 109,
+    "fields": {
+      "name": "상추 Lite",
+      "description": "최신 모델입니다.",
+      "price": 10006,
+      "category": 12,
+      "discount_rate": 0.43,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 110,
+    "fields": {
+      "name": "토마토 ",
+      "description": "특별 할인 중입니다.",
+      "price": 19028,
+      "category": 12,
+      "discount_rate": 0.37,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 111,
+    "fields": {
+      "name": "조명 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 108733,
+      "category": 18,
+      "discount_rate": 0.42,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 112,
+    "fields": {
+      "name": "Zenbook Plus",
+      "description": "인기 상품입니다.",
+      "price": 1205072,
+      "category": 2,
+      "discount_rate": 0.21,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 113,
+    "fields": {
+      "name": "GFX Max",
+      "description": "최신 모델입니다.",
+      "price": 2356708,
+      "category": 4,
+      "discount_rate": 0.27,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 114,
+    "fields": {
+      "name": "블레이저 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 221977,
+      "category": 8,
+      "discount_rate": 0.32,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 115,
+    "fields": {
+      "name": "Xperia Plus",
+      "description": "한정판입니다.",
+      "price": 610148,
+      "category": 1,
+      "discount_rate": 0.06,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 116,
+    "fields": {
+      "name": "Galaxy ",
+      "description": "베스트셀러입니다.",
+      "price": 1403026,
+      "category": 1,
+      "discount_rate": 0.18,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 117,
+    "fields": {
+      "name": "프라이팬 Pro",
+      "description": "베스트셀러입니다.",
+      "price": 175945,
+      "category": 16,
+      "discount_rate": 0.05,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 118,
+    "fields": {
+      "name": "가디건 Lite",
+      "description": "한정판입니다.",
+      "price": 79452,
+      "category": 8,
+      "discount_rate": 0.13,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 119,
+    "fields": {
+      "name": "ThinkPad ",
+      "description": "특별 할인 중입니다.",
+      "price": 2863972,
+      "category": 2,
+      "discount_rate": 0.26,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 120,
+    "fields": {
+      "name": "소고기 Lite",
+      "description": "인기 상품입니다.",
+      "price": 71317,
+      "category": 13,
+      "discount_rate": 0.49,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 121,
+    "fields": {
+      "name": "사과 ",
+      "description": "추천 상품입니다.",
+      "price": 38484,
+      "category": 11,
+      "discount_rate": 0.37,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 122,
+    "fields": {
+      "name": "믹서기 Lite",
+      "description": "한정판입니다.",
+      "price": 95601,
+      "category": 16,
+      "discount_rate": 0.49,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 123,
+    "fields": {
+      "name": "PS5 Pro",
+      "description": "특별 할인 중입니다.",
+      "price": 718827,
+      "category": 5,
+      "discount_rate": 0.24,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 124,
+    "fields": {
+      "name": "에코백 Max",
+      "description": "추천 상품입니다.",
+      "price": 54496,
+      "category": 10,
+      "discount_rate": 0.1,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 125,
+    "fields": {
+      "name": "무스탕 Plus",
+      "description": "추천 상품입니다.",
+      "price": 262268,
+      "category": 8,
+      "discount_rate": 0.01,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 126,
+    "fields": {
+      "name": "OM-D ",
+      "description": "인기 상품입니다.",
+      "price": 1865886,
+      "category": 4,
+      "discount_rate": 0.06,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 127,
+    "fields": {
+      "name": "Galaxy ",
+      "description": "한정판입니다.",
+      "price": 1234949,
+      "category": 1,
+      "discount_rate": 0.18,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 128,
+    "fields": {
+      "name": "브리프케이스 Max",
+      "description": "베스트셀러입니다.",
+      "price": 80815,
+      "category": 10,
+      "discount_rate": 0.44,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 129,
+    "fields": {
+      "name": "도마 Plus",
+      "description": "추천 상품입니다.",
+      "price": 116315,
+      "category": 16,
+      "discount_rate": 0.48,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 130,
+    "fields": {
+      "name": "EOS Lite",
+      "description": "최신 모델입니다.",
+      "price": 1793033,
+      "category": 4,
+      "discount_rate": 0.31,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 131,
+    "fields": {
+      "name": "랍스터 ",
+      "description": "특별 할인 중입니다.",
+      "price": 57117,
+      "category": 14,
+      "discount_rate": 0.25,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 132,
+    "fields": {
+      "name": "브리프케이스 Lite",
+      "description": "한정판입니다.",
+      "price": 253859,
+      "category": 10,
+      "discount_rate": 0.4,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 133,
+    "fields": {
+      "name": "Mi Lite",
+      "description": "인기 상품입니다.",
+      "price": 1561745,
+      "category": 1,
+      "discount_rate": 0.18,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 134,
+    "fields": {
+      "name": "ThinkPad ",
+      "description": "한정판입니다.",
+      "price": 2618337,
+      "category": 2,
+      "discount_rate": 0.19,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 135,
+    "fields": {
+      "name": "포도 Lite",
+      "description": "추천 상품입니다.",
+      "price": 47009,
+      "category": 11,
+      "discount_rate": 0.39,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 136,
+    "fields": {
+      "name": "Yoga Tab Lite",
+      "description": "최신 모델입니다.",
+      "price": 1246955,
+      "category": 3,
+      "discount_rate": 0.29,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 137,
+    "fields": {
+      "name": "토마토 Max",
+      "description": "베스트셀러입니다.",
+      "price": 7509,
+      "category": 12,
+      "discount_rate": 0.2,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 138,
+    "fields": {
+      "name": "화분 Lite",
+      "description": "추천 상품입니다.",
+      "price": 407815,
+      "category": 18,
+      "discount_rate": 0.22,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 139,
+    "fields": {
+      "name": "라면 Plus",
+      "description": "추천 상품입니다.",
+      "price": 32697,
+      "category": 15,
+      "discount_rate": 0.29,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 140,
+    "fields": {
+      "name": "크로스백 ",
+      "description": "특별 할인 중입니다.",
+      "price": 259920,
+      "category": 10,
+      "discount_rate": 0.17,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 141,
+    "fields": {
+      "name": "통조림 Lite",
+      "description": "베스트셀러입니다.",
+      "price": 39120,
+      "category": 15,
+      "discount_rate": 0.2,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 142,
+    "fields": {
+      "name": "V시리즈 Lite",
+      "description": "인기 상품입니다.",
+      "price": 835214,
+      "category": 1,
+      "discount_rate": 0.09,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 143,
+    "fields": {
+      "name": "통조림 Lite",
+      "description": "추천 상품입니다.",
+      "price": 39744,
+      "category": 15,
+      "discount_rate": 0.06,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 144,
+    "fields": {
+      "name": "바나나 Lite",
+      "description": "베스트셀러입니다.",
+      "price": 49721,
+      "category": 11,
+      "discount_rate": 0.27,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 145,
+    "fields": {
+      "name": "감자 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 6110,
+      "category": 12,
+      "discount_rate": 0.15,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 146,
+    "fields": {
+      "name": "돼지고기 Plus",
+      "description": "추천 상품입니다.",
+      "price": 71521,
+      "category": 13,
+      "discount_rate": 0.28,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 147,
+    "fields": {
+      "name": "iPad ",
+      "description": "인기 상품입니다.",
+      "price": 1004841,
+      "category": 3,
+      "discount_rate": 0.23,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 148,
+    "fields": {
+      "name": "로퍼 ",
+      "description": "최신 모델입니다.",
+      "price": 172431,
+      "category": 9,
+      "discount_rate": 0.29,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 149,
+    "fields": {
+      "name": "옷장 Lite",
+      "description": "특별 할인 중입니다.",
+      "price": 1473336,
+      "category": 17,
+      "discount_rate": 0.13,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 150,
+    "fields": {
+      "name": "Alpha Lite",
+      "description": "최신 모델입니다.",
+      "price": 616605,
+      "category": 4,
+      "discount_rate": 0.45,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 151,
+    "fields": {
+      "name": "새우 Max",
+      "description": "베스트셀러입니다.",
+      "price": 67258,
+      "category": 14,
+      "discount_rate": 0.2,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 152,
+    "fields": {
+      "name": "컵 Plus",
+      "description": "한정판입니다.",
+      "price": 91455,
+      "category": 16,
+      "discount_rate": 0.17,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 153,
+    "fields": {
+      "name": "EOS Plus",
+      "description": "추천 상품입니다.",
+      "price": 2185023,
+      "category": 4,
+      "discount_rate": 0.5,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 154,
+    "fields": {
+      "name": "소고기 Pro",
+      "description": "한정판입니다.",
+      "price": 33055,
+      "category": 13,
+      "discount_rate": 0.31,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 155,
+    "fields": {
+      "name": "청바지 Pro",
+      "description": "한정판입니다.",
+      "price": 59142,
+      "category": 7,
+      "discount_rate": 0.31,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 156,
+    "fields": {
+      "name": "티셔츠 Lite",
+      "description": "추천 상품입니다.",
+      "price": 75823,
+      "category": 6,
+      "discount_rate": 0.45,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 157,
+    "fields": {
+      "name": "샌들 Pro",
+      "description": "베스트셀러입니다.",
+      "price": 73330,
+      "category": 9,
+      "discount_rate": 0.15,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 158,
+    "fields": {
+      "name": "조명 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 394945,
+      "category": 18,
+      "discount_rate": 0.34,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 159,
+    "fields": {
+      "name": "당근 Plus",
+      "description": "한정판입니다.",
+      "price": 25461,
+      "category": 12,
+      "discount_rate": 0.24,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 160,
+    "fields": {
+      "name": "액자 Lite",
+      "description": "한정판입니다.",
+      "price": 277486,
+      "category": 18,
+      "discount_rate": 0.24,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 161,
+    "fields": {
+      "name": "티셔츠 Pro",
+      "description": "특별 할인 중입니다.",
+      "price": 22500,
+      "category": 6,
+      "discount_rate": 0.19,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 162,
+    "fields": {
+      "name": "오이 Plus",
+      "description": "베스트셀러입니다.",
+      "price": 24369,
+      "category": 12,
+      "discount_rate": 0.36,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 163,
+    "fields": {
+      "name": "MatePad Lite",
+      "description": "최신 모델입니다.",
+      "price": 601911,
+      "category": 3,
+      "discount_rate": 0.45,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 164,
+    "fields": {
+      "name": "새우 Pro",
+      "description": "한정판입니다.",
+      "price": 107883,
+      "category": 14,
+      "discount_rate": 0.33,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 165,
+    "fields": {
+      "name": "체리 Max",
+      "description": "인기 상품입니다.",
+      "price": 28660,
+      "category": 11,
+      "discount_rate": 0.31,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 166,
+    "fields": {
+      "name": "PS5 Plus",
+      "description": "인기 상품입니다.",
+      "price": 735016,
+      "category": 5,
+      "discount_rate": 0.47,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 167,
+    "fields": {
+      "name": "양파 Pro",
+      "description": "인기 상품입니다.",
+      "price": 12048,
+      "category": 12,
+      "discount_rate": 0.0,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 168,
+    "fields": {
+      "name": "Mi Lite",
+      "description": "추천 상품입니다.",
+      "price": 764068,
+      "category": 1,
+      "discount_rate": 0.18,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 169,
+    "fields": {
+      "name": "ROG Max",
+      "description": "특별 할인 중입니다.",
+      "price": 2429853,
+      "category": 2,
+      "discount_rate": 0.35,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 170,
+    "fields": {
+      "name": "역사 ",
+      "description": "특별 할인 중입니다.",
+      "price": 49849,
+      "category": 19,
+      "discount_rate": 0.01,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 171,
+    "fields": {
+      "name": "Galaxy Tab Plus",
+      "description": "한정판입니다.",
+      "price": 1080685,
+      "category": 3,
+      "discount_rate": 0.43,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 172,
+    "fields": {
+      "name": "에코백 Plus",
+      "description": "인기 상품입니다.",
+      "price": 203811,
+      "category": 10,
+      "discount_rate": 0.32,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 173,
+    "fields": {
+      "name": "슬랙스 Pro",
+      "description": "최신 모델입니다.",
+      "price": 37836,
+      "category": 7,
+      "discount_rate": 0.29,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 174,
+    "fields": {
+      "name": "MacBook ",
+      "description": "추천 상품입니다.",
+      "price": 2096513,
+      "category": 2,
+      "discount_rate": 0.19,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 175,
+    "fields": {
+      "name": "슬랙스 Max",
+      "description": "특별 할인 중입니다.",
+      "price": 141378,
+      "category": 7,
+      "discount_rate": 0.47,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 176,
+    "fields": {
+      "name": "감자 Max",
+      "description": "베스트셀러입니다.",
+      "price": 12393,
+      "category": 12,
+      "discount_rate": 0.04,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 177,
+    "fields": {
+      "name": "화분 Pro",
+      "description": "최신 모델입니다.",
+      "price": 102613,
+      "category": 18,
+      "discount_rate": 0.08,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 178,
+    "fields": {
+      "name": "크로스백 Plus",
+      "description": "특별 할인 중입니다.",
+      "price": 157108,
+      "category": 10,
+      "discount_rate": 0.08,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 179,
+    "fields": {
+      "name": "의자 ",
+      "description": "최신 모델입니다.",
+      "price": 1412368,
+      "category": 17,
+      "discount_rate": 0.12,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 180,
+    "fields": {
+      "name": "배 Plus",
+      "description": "한정판입니다.",
+      "price": 48926,
+      "category": 11,
+      "discount_rate": 0.13,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 181,
+    "fields": {
+      "name": "D시리즈 Pro",
+      "description": "추천 상품입니다.",
+      "price": 1222983,
+      "category": 4,
+      "discount_rate": 0.28,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 182,
+    "fields": {
+      "name": "Reno Plus",
+      "description": "베스트셀러입니다.",
+      "price": 825424,
+      "category": 1,
+      "discount_rate": 0.42,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 183,
+    "fields": {
+      "name": "냉동식품 ",
+      "description": "베스트셀러입니다.",
+      "price": 26157,
+      "category": 15,
+      "discount_rate": 0.0,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 184,
+    "fields": {
+      "name": "셔츠 Pro",
+      "description": "최신 모델입니다.",
+      "price": 43223,
+      "category": 6,
+      "discount_rate": 0.11,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 185,
+    "fields": {
+      "name": "액자 Pro",
+      "description": "베스트셀러입니다.",
+      "price": 457675,
+      "category": 18,
+      "discount_rate": 0.5,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 186,
+    "fields": {
+      "name": "Galaxy Book Pro",
+      "description": "특별 할인 중입니다.",
+      "price": 1208687,
+      "category": 2,
+      "discount_rate": 0.0,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 187,
+    "fields": {
+      "name": "청바지 Plus",
+      "description": "추천 상품입니다.",
+      "price": 63829,
+      "category": 7,
+      "discount_rate": 0.26,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 188,
+    "fields": {
+      "name": "조명 Max",
+      "description": "인기 상품입니다.",
+      "price": 262863,
+      "category": 18,
+      "discount_rate": 0.34,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 189,
+    "fields": {
+      "name": "맨투맨 Max",
+      "description": "한정판입니다.",
+      "price": 48792,
+      "category": 6,
+      "discount_rate": 0.34,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 190,
+    "fields": {
+      "name": "무스탕 Lite",
+      "description": "최신 모델입니다.",
+      "price": 213167,
+      "category": 8,
+      "discount_rate": 0.23,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 191,
+    "fields": {
+      "name": "iPhone ",
+      "description": "추천 상품입니다.",
+      "price": 699313,
+      "category": 1,
+      "discount_rate": 0.17,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 192,
+    "fields": {
+      "name": "Xbox Series S Max",
+      "description": "추천 상품입니다.",
+      "price": 510560,
+      "category": 5,
+      "discount_rate": 0.35,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 193,
+    "fields": {
+      "name": "폴로 Max",
+      "description": "추천 상품입니다.",
+      "price": 78047,
+      "category": 6,
+      "discount_rate": 0.26,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 194,
+    "fields": {
+      "name": "가디건 Plus",
+      "description": "추천 상품입니다.",
+      "price": 291303,
+      "category": 8,
+      "discount_rate": 0.44,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 195,
+    "fields": {
+      "name": "사과 Pro",
+      "description": "추천 상품입니다.",
+      "price": 20579,
+      "category": 11,
+      "discount_rate": 0.4,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 196,
+    "fields": {
+      "name": "돼지고기 ",
+      "description": "최신 모델입니다.",
+      "price": 54263,
+      "category": 13,
+      "discount_rate": 0.48,
+      "coupon_applicable": true
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 197,
+    "fields": {
+      "name": "조거팬츠 Max",
+      "description": "최신 모델입니다.",
+      "price": 141394,
+      "category": 7,
+      "discount_rate": 0.28,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 198,
+    "fields": {
+      "name": "크로스백 Plus",
+      "description": "인기 상품입니다.",
+      "price": 56861,
+      "category": 10,
+      "discount_rate": 0.35,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 199,
+    "fields": {
+      "name": "소고기 Pro",
+      "description": "최신 모델입니다.",
+      "price": 71918,
+      "category": 13,
+      "discount_rate": 0.34,
+      "coupon_applicable": false
+    }
+  },
+  {
+    "model": "src.product",
+    "pk": 200,
+    "fields": {
+      "name": "Reno Lite",
+      "description": "추천 상품입니다.",
+      "price": 720153,
+      "category": 1,
+      "discount_rate": 0.13,
+      "coupon_applicable": false
+    }
+  }
+]

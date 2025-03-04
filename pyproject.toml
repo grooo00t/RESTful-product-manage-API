@@ -1,0 +1,64 @@
+[tool.poetry]
+name        = "restful-product-manage-api"
+version     = "0.1.0"
+description = "RESTful Shopping Mall Product Management API"
+authors     = ["Your Name <your.email@example.com>"]
+packages    = [{ include = "src" }]
+include     = ["manage.py"]
+
+[tool.poetry.dependencies]
+python              = "^3.9"
+django              = "3.0.11"
+djangorestframework = "^3.14.0"
+mysqlclient         = "^2.2.0"
+pydantic            = "^2.10.6"
+pydantic-settings   = "^2.8.0"
+drf-yasg            = "^1.21.9"
+gunicorn            = "^23.0.0"
+whitenoise          = "^6.6.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest         = "^8.1.1"
+pytest-cov     = "^4.0.0"
+pytest-asyncio = "^0.21.0"
+black          = "^23.0.0"
+isort          = "^5.12.0"
+mypy           = "^1.0.0"
+pre-commit     = "^3.0.0"
+
+[build-system]
+requires      = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length    = 120
+target-version = ['py39']
+include        = '\.pyi?$'
+exclude        = '\.git/|\.mypy_cache/|\.venv/|\.eggs/|build/|dist/|migrations/'
+
+[tool.isort]
+profile     = "black"
+line_length = 120
+py_version  = 39
+
+[tool.mypy]
+python_version         = "3.9"
+strict                 = false
+ignore_missing_imports = true
+explicit_package_bases = true
+namespace_packages     = true
+mypy_path              = "."
+
+[tool.pytest.ini_options]
+testpaths    = ["tests"]
+python_files = ["test_*.py"]
+addopts      = "-v -s --cov=."
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.hatch.build.targets.sdist]
+packages = ["."]
