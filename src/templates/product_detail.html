@@ -65,7 +65,7 @@
                                     <strong>${coupon.code}</strong>
                                     <span class="ms-2 text-danger">${(coupon.discount_rate * 100).toFixed(0)}% 할인</span>
                                 </div>
-                                <span class="badge bg-success rounded-pill">할인가: ${coupon.discounted_price}원</span>
+                                <span class="badge bg-success rounded-pill">세일가: ${coupon.discounted_price}원</span>
                             </li>
                         `).join('')}
                     </ul>
@@ -100,8 +100,8 @@
 
             <div class="row mb-3">
                 <div class="col-6">
-                    <strong>할인가(할인율):</strong>
-                    <span class="text-danger">${product.discounted_price}원(${product.discount_rate}%)</span>
+                    <strong>세일가(할인율):</strong>
+                    <span class="text-danger">${product.discounted_price}원(${(product.discount_rate * 100).toFixed(0)}%)</span>
                 </div>
                 <div class="col-6">
                     <strong>쿠폰 적용 가능:</strong>

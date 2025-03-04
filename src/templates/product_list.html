@@ -157,8 +157,8 @@ function fetchProducts(categoryIdx, page = 1) {
                             </p>
                             <p class="card-text">
                                 ${product.discount_rate > 0 
-                                    ? `<span class="text-danger"><strong>할인가(할인율):</strong> ${product.discounted_price}원(${product.discount_rate}%)</span>`
-                                    : '<span class="text-muted">할인가 없음</span>'}
+                                    ? `<span class="text-danger"><strong>세일가(할인율):</strong> ${product.discounted_price}원(${(product.discount_rate * 100).toFixed(0)}%)</span>`
+                                    : '<span class="text-muted">세일가 없음</span>'}
                             </p>
                             <a href="${PRODUCT_DETAIL_URL_PATTERN.replace('{id}', product.idx)}" class="btn btn-primary">상세보기</a>
                         </div>
