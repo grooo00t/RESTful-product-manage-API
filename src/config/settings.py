@@ -113,6 +113,11 @@ DATABASES = {
             "ssl": {"ssl_mode": "DISABLED"},
             "charset": "utf8mb4",
         },
+        "TEST": {
+            "NAME": "test_test",
+            "CHARSET": "utf8mb4",
+            "COLLATION": "utf8mb4_unicode_ci",
+        },
     }
 }
 

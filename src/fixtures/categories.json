@@ -1,22 +1,182 @@
 [
-  {"model": "src.category", "pk": 1, "fields": {"name": "스마트폰"}},
-  {"model": "src.category", "pk": 2, "fields": {"name": "노트북/PC"}},
-  {"model": "src.category", "pk": 3, "fields": {"name": "태블릿"}},
-  {"model": "src.category", "pk": 4, "fields": {"name": "카메라"}},
-  {"model": "src.category", "pk": 5, "fields": {"name": "게임기"}},
-  {"model": "src.category", "pk": 6, "fields": {"name": "상의"}},
-  {"model": "src.category", "pk": 7, "fields": {"name": "하의"}},
-  {"model": "src.category", "pk": 8, "fields": {"name": "아우터"}},
-  {"model": "src.category", "pk": 9, "fields": {"name": "신발"}},
-  {"model": "src.category", "pk": 10, "fields": {"name": "가방"}},
-  {"model": "src.category", "pk": 11, "fields": {"name": "과일"}},
-  {"model": "src.category", "pk": 12, "fields": {"name": "채소"}},
-  {"model": "src.category", "pk": 13, "fields": {"name": "육류"}},
-  {"model": "src.category", "pk": 14, "fields": {"name": "해산물"}},
-  {"model": "src.category", "pk": 15, "fields": {"name": "가공식품"}},
-  {"model": "src.category", "pk": 16, "fields": {"name": "주방용품"}},
-  {"model": "src.category", "pk": 17, "fields": {"name": "가구"}},
-  {"model": "src.category", "pk": 18, "fields": {"name": "인테리어"}},
-  {"model": "src.category", "pk": 19, "fields": {"name": "도서"}},
-  {"model": "src.category", "pk": 20, "fields": {"name": "문구"}}
-] 
+  {
+    "model": "src.category",
+    "pk": 1,
+    "fields": {
+      "name": "\uc2a4\ub9c8\ud2b8\ud3f0",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 2,
+    "fields": {
+      "name": "\ub178\ud2b8\ubd81/PC",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 3,
+    "fields": {
+      "name": "\ud0dc\ube14\ub9bf",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 4,
+    "fields": {
+      "name": "\uce74\uba54\ub77c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 5,
+    "fields": {
+      "name": "\uac8c\uc784\uae30",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 6,
+    "fields": {
+      "name": "\uc0c1\uc758",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 7,
+    "fields": {
+      "name": "\ud558\uc758",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 8,
+    "fields": {
+      "name": "\uc544\uc6b0\ud130",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 9,
+    "fields": {
+      "name": "\uc2e0\ubc1c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 10,
+    "fields": {
+      "name": "\uac00\ubc29",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 11,
+    "fields": {
+      "name": "\uacfc\uc77c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 12,
+    "fields": {
+      "name": "\ucc44\uc18c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 13,
+    "fields": {
+      "name": "\uc721\ub958",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 14,
+    "fields": {
+      "name": "\ud574\uc0b0\ubb3c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 15,
+    "fields": {
+      "name": "\uac00\uacf5\uc2dd\ud488",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 16,
+    "fields": {
+      "name": "\uc8fc\ubc29\uc6a9\ud488",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 17,
+    "fields": {
+      "name": "\uac00\uad6c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 18,
+    "fields": {
+      "name": "\uc778\ud14c\ub9ac\uc5b4",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 19,
+    "fields": {
+      "name": "\ub3c4\uc11c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.category",
+    "pk": 20,
+    "fields": {
+      "name": "\ubb38\uad6c",
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  }
+]

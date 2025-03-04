@@ -1,5 +1,5 @@
-from django.http import JsonResponse
 from rest_framework.request import Request
+from django.http.response import JsonResponse
 
 from ..exception import _BaseError
 

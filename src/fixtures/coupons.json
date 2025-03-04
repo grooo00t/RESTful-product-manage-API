@@ -1,12 +1,102 @@
 [
-  {"model": "src.coupon", "pk": 1, "fields": {"code": "WELCOME", "discount_rate": 0.1}},
-  {"model": "src.coupon", "pk": 2, "fields": {"code": "SPRING2024", "discount_rate": 0.15}},
-  {"model": "src.coupon", "pk": 3, "fields": {"code": "SUMMER2024", "discount_rate": 0.2}},
-  {"model": "src.coupon", "pk": 4, "fields": {"code": "FALL2024", "discount_rate": 0.15}},
-  {"model": "src.coupon", "pk": 5, "fields": {"code": "WINTER2024", "discount_rate": 0.2}},
-  {"model": "src.coupon", "pk": 6, "fields": {"code": "VIP2024", "discount_rate": 0.25}},
-  {"model": "src.coupon", "pk": 7, "fields": {"code": "SPECIAL", "discount_rate": 0.3}},
-  {"model": "src.coupon", "pk": 8, "fields": {"code": "WEEKEND", "discount_rate": 0.12}},
-  {"model": "src.coupon", "pk": 9, "fields": {"code": "HOLIDAY", "discount_rate": 0.18}},
-  {"model": "src.coupon", "pk": 10, "fields": {"code": "LUCKY", "discount_rate": 0.22}}
-] 
+  {
+    "model": "src.coupon",
+    "pk": 1,
+    "fields": {
+      "code": "WELCOME",
+      "discount_rate": 0.1,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 2,
+    "fields": {
+      "code": "SPRING2024",
+      "discount_rate": 0.15,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 3,
+    "fields": {
+      "code": "SUMMER2024",
+      "discount_rate": 0.2,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 4,
+    "fields": {
+      "code": "FALL2024",
+      "discount_rate": 0.15,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 5,
+    "fields": {
+      "code": "WINTER2024",
+      "discount_rate": 0.2,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 6,
+    "fields": {
+      "code": "VIP2024",
+      "discount_rate": 0.25,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 7,
+    "fields": {
+      "code": "SPECIAL",
+      "discount_rate": 0.3,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 8,
+    "fields": {
+      "code": "WEEKEND",
+      "discount_rate": 0.12,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 9,
+    "fields": {
+      "code": "HOLIDAY",
+      "discount_rate": 0.18,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  },
+  {
+    "model": "src.coupon",
+    "pk": 10,
+    "fields": {
+      "code": "LUCKY",
+      "discount_rate": 0.22,
+      "created_at": "2024-01-01 00:00:00",
+      "updated_at": "2024-01-01 00:00:00"
+    }
+  }
+]
