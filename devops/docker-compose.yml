@@ -3,6 +3,7 @@ services:
     build:
       context: ..
       dockerfile: devops/Dockerfile
+    container_name: web
     ports:
       - "8000:8000"
     environment:
@@ -35,8 +36,6 @@ services:
       - MYSQL_PASSWORD=test123
       - MYSQL_ROOT_PASSWORD=test123
       - MYSQL_INITDB_ARGS=--default-authentication-plugin=mysql_native_password
-    ports:
-      - "3306:3306"
     volumes:
       - ./data/mysql:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
