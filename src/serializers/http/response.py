@@ -7,8 +7,7 @@ class _ResponseSerializer(serializers.Serializer):
     message = serializers.CharField()
 
     def to_representation(self, instance: Optional[dict] = None):
-        res = {} if instance is None else {"data": instance}
-        return super().to_representation(res)
+        return super().to_representation({} if instance is None else {"data": instance})
 
     class Meta:
         abstract = True

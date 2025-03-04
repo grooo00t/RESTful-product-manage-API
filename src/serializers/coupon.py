@@ -16,7 +16,7 @@ class GetCouponSerializer(serializers.ModelSerializer):
                 instance["product"].discounted_price, instance["coupon"].discount_rate
             ),
         }
-        return data
+        return super().to_representation(data)
 
     class Meta:
         model = Coupon
