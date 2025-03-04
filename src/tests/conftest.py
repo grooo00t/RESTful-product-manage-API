@@ -40,7 +40,7 @@ def category(db):
 
 
 @pytest.fixture
-def product(db, category):
+def product(db, category: Category):
     return Product.objects.create(
         name="테스트 상품",
         description="테스트 상품 설명",
@@ -57,3 +57,21 @@ def coupon(db):
         code="TEST2024",
         discount_rate=0.2,
     )
+
+
+@pytest.fixture
+def products(db, category: Category):
+    """여러 개의 상품 생성"""
+    products = []
+    for i in range(5):
+        products.append(
+            Product.objects.create(
+                name=f"테스트 상품 {i+1}",
+                description=f"테스트 상품 설명 {i+1}",
+                price=10000 * (i + 1),
+                category=category,
+                discount_rate=0.1,
+                coupon_applicable=True,
+            )
+        )
+    return products
