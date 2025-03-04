@@ -24,19 +24,21 @@ scripts/
 
 src/
 ├── config/ # Django 설정
-├── models/ # 데이터 모델
 ├── endpoint/ # API 엔드포인트
-├── service/ # 비즈니스 로직
-├── serializers/ # 직렬화/역직렬화
-├── utils/ # 유틸리티 함수
 ├── exception/ # 커스텀 예외
-├── middleware/ # 미들웨어
-├── templates/ # UI 템플릿
-├── fixtures/ # 초기 데이터
+├── fixtures/ # 테스트 데이터
 ├── management/ # Django 커스텀 명령어
+├── middleware/ # 미들웨어
+├── models/ # 데이터 모델
+├── schema/ # 데이터 스키마
+├── service/ # 의존성 부여 비즈니스 로직
+├── serializers/ # 직렬화/역직렬화
+├── templates/ # UI 템플릿
 └── tests/ # 테스트 코드
     ├── unit/ # 단위 테스트
     └── integration/ # 통합 테스트
+├── usecase/ # 비즈니스 로직
+└── utils/ # 유틸리티 함수
 ```
 
 ### 주요 폴더 설명
