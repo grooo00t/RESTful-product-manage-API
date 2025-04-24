@@ -40,6 +40,8 @@ services:
       - ./data/mysql:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     hostname: db
+    ports:
+      - "3306:3306"
     networks:
       - _default
     healthcheck:
